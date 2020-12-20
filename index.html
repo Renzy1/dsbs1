@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="libs/scrollReveal/scrollreveal.min.js"></script>
+    <!-- 引入font-awesome依赖 -->
+    <link  href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="libs/glide/glide.core.min.css" />
+    <link rel="stylesheet" href="libs/glide/glide.theme.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>筑梦未来 - 让我们在这里乡遇</title>
+  </head>
+  <body>
+    <!-- 网页头部 -->
+    <header>
+      <div class="logo">筑梦未来</div>
+      <nav>
+        <a href="#home">首页</a>
+        <a href="#about-us">关于我们</a>
+        <a href="#showcases">成功案例</a>
+        <a href="#service">服务流程</a>
+        <a href="#team-intro">团队介绍</a>
+        <a href="#company-activities">公司动态</a>
+        <a href="#"><i class="fas fa-search"></i></a> 
+      </nav>
+      <div class="burger">
+        <div class="burger-line1"></div>
+        <div class="burger-line2"></div>
+        <div class="burger-line3"></div>
+      </div>
+    </header>
+    <div id="home" class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides">
+          <!-- 轮播图一 -->
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1>在浙里，我们乡遇！</h1>
+              <h3>幸福生活</h3>
+              <button class="explore-btn">探索更多</button>
+            </div>
+            <img src="images/people-in-couch-1024249.jpeg" />
+          </div>
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1>在浙里，我们乡遇！</h1>
+              <h3>美丽乡村</h3>
+              <button class="explore-btn">探索更多</button>
+            </div>
+            <div class="backdrop"></div>
+            <img src="images/lunbotu.jpeg" />
+          </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <i class="fa fa-angle-left"></i>
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            <i class="fa fa-angle-right"></i>
+          </button>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <section id="about-us" class="about-us">
+        <h2 class="title1">关于我们</h2>
+        <div class="intro">
+          <p>
+            筑梦未来，享受未来。
+          </p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <i class="fas fa-lightbulb"></i>
+            <h4 class="feature-title">品牌创意</h4>
+            <p class="feature-content">
+              为乡村设计独特的品牌文化和视觉体验
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-chart-line"></i>
+            <h4 class="feature-title">整合营销</h4>
+            <p class="feature-content">
+              通过市场进入分析，指定网络营销战略，网络营销实施。
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-shopping-cart"></i>
+            <h4 class="feature-title">电子商务</h4>
+            <p class="feature-content">
+              根据乡村的具体内容来指定行销策略。
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-desktop"></i>
+            <h4 class="feature-title">网页设计</h4>
+            <p class="feature-content">
+              通过网站的设计和乡村的结合。
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-tachometer-alt"></i>
+            <h4 class="feature-title">网站优化</h4>
+            <p class="feature-content">
+              根据客户的要求来更进一步的改良网站。
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-server"></i>
+            <h4 class="feature-title">网站架设</h4>
+            <p class="feature-content">
+              通过我们的平台来将乡村展现给全世界。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="showcases" class="showcases section-bg">
+        <h2 class="title1">成功案例</h2>
+        <div class="filter-btns">
+          <button class="filter-btn active" data-filter="*">全部</button>
+          <button class="filter-btn" data-filter=".east">浙东</button>
+          <button class="filter-btn" data-filter=".west">浙西</button>
+        </div>
+        <div class="cases">
+          <div class="case-item east">
+            <a href="https://www.baidu.com"><img src="images/east-liuhengdao.jpg" alt=""></a>
+          </div>
+          <div class="case-item west">
+            <img src="images/west-songyang.jpg" alt="">
+          </div>
+          <div class="case-item west">
+            <a href="water-yard.html"><img src="images/west-shuitinshezu.jpg" alt=""></a>
+          </div>
+          <div class="case-item east">
+            <img src="images/east-dongjidao.jpg" alt="">
+          </div>
+          <div class="case-item west">
+            <img src="images/west-wenchengdaxue.jpg" alt="">
+          </div>
+          <div class="case-item east">
+            <img src="images/east-shipuzhen.jpg" alt="">
+          </div>
+          <div class="case-item mobile east">
+            <img src="images/east-tucizhen.jpg" alt="">
+          </div>
+          <div class="case-item west">
+            <img src="images/west-longyou.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section id="service" class="service">
+        <h2 class="title1">服务流程</h2>
+        <p class="intro">
+          结合各个乡村，小镇特色的文化背景，利用互联网等各种先进技术实现各地美丽乡村的线上推广。
+        </p>
+        <div class="services">
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <h4 class="service-title">需求沟通</h4>
+            <p class="service-content">
+              客户提出网站建设基本需求，包括设计要求及功能要求。
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-sign-in-alt"></i>
+            <h4 class="service-title">项目评估</h4>
+            <p class="service-content">
+              根据客户提出的需求进行评估，估算出相应的时间与费用。
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-file-signature    "></i>
+            <h4 class="service-title">签订合同</h4>
+            <p class="service-content">
+              合作双方确认费用，工期，合作要求的基础上，双方共同签订合同。
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-user"></i>
+            <h4 class="service-title">提案阶段</h4>
+            <p class="service-content">
+              完成网站初稿设计，包括首页风格，内页风格页面。
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h4 class="service-title">制作阶段</h4>
+            <p class="service-content">
+              完成所有网页的设计，进行程序开发以及前后台的页面整合。
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-user-check"></i>
+            <h4 class="service-title">项目验收</h4>
+            <p class="service-content">
+              根据合同条款进行项目验收，并签署项目验收确认单。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="team-intro" class="team-intro section-bg">
+        <h2 class="title1">团队介绍</h2>
+        <div class="team-members">
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="images/team1.jpg" alt="">
+            </div>
+            <h4 class="name">杨</h4>
+            <p class="position">团队负责人</p>
+            <ul class="social-links">
+              <li><a href="http://www.baidu.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="images/team2.jpg" alt="">
+            </div>
+            <h4 class="name">周</h4>
+            <p class="position">营销总部负责人</p>
+            <ul class="social-links">
+              <li><a href="http://www.baidu.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="images/team3.jpg" alt="">
+            </div>
+            <h4 class="name">陈</h4>
+            <p class="position">财务部工作</p>
+            <ul class="social-links">
+              <li><a href="http://www.baidu.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="images/team4.jpg" alt="">
+            </div>
+            <h4 class="name">葛</h4>
+            <p class="position">资深技术人员</p>
+            <ul class="social-links">
+              <li><a href="http://www.baidu.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="images/team5.jpg" alt="">
+            </div>
+            <h4 class="name">任</h4>
+            <p class="position">资深技术人员</p>
+            <ul class="social-links">
+              <li><a href="http://www.baidu.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.baidu.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <section id="company-activities" class="company-activities">
+        <h2 class="title1">公司动态</h2>
+        <p class="intro">关注公司动态，获取一手信息</p>
+        <div class="activities">
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="images/gsdt-xyzl.jpg" alt="">
+            </div>
+            <div class="meta">
+              <p class="data-published">
+                <i class="far fa-calendar"></i>
+                2020年12月12日
+              </p>
+              <p class="comments">
+                <i class="far fa-comments"></i>
+                33
+                <span>条评论</span>
+              </p>
+            </div>
+            <h2 class="act-title">让乡村互联，在浙里奇缘</h2>
+            <article>
+              “乡遇浙里”是主要提供乡风民俗包装设计的美丽乡村数字化推广平台。“乡遇浙里”通过对线下硬件设施及文化民俗的考察结合后期团队的制作，将美丽乡村的乡风民俗及特色产品集合于平台上，通过方案设计助推经济状况较差或者具有文化特色的乡村。结合各个乡村，小镇特色的文化背景，利用互联网等各种先进技术实现各地美丽乡村的线上推广，利用更多的文化元素，打造更注重文化特色的经济平台。
+            </article>
+            <button class="read-more-btn">阅读更多</button>
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="images/gsdt-mlxc.jpg" alt="">
+            </div>
+            <div class="meta">
+              <p class="data-published">
+                <i class="far fa-calendar"></i>
+                2020年12月8日
+              </p>
+              <p class="comments">
+                <i class="far fa-comments"></i>
+                25
+                <span>条评论</span>
+              </p>
+            </div>
+            <h2 class="act-title">美丽乡村计划</h2>
+            <article>
+              建设“村村优美、家家创业、处处和谐、人人幸福”的新农村，打造全国生态环境最优美、村容村貌最整洁、产业特色最鲜明、社区服务最健全、乡土文化最繁荣、农民生活最幸福的地区之一；实施“环境提升”、“产业提升”、“素质提升”、“服务提升”四大工程。
+            </article>
+            <button class="read-more-btn">阅读更多</button>
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="images/watercrafts-on-river-3464632.jpg" alt="">
+            </div>
+            <div class="meta">
+              <p class="data-published">
+                <i class="far fa-calendar"></i>
+                2020年12月12日
+              </p>
+              <p class="comments">
+                <i class="far fa-comments"></i>
+                33
+                <span>条评论</span>
+              </p>
+            </div>
+            <h2 class="act-title">筑梦未来</h2>
+            <article>
+              筑梦未来，这个过程不会一帆风顺，但是，我们可以享受筑梦的过程，可能，未来的我们已经忘记了曾经的梦想是什么，但是请你记住现在的梦想，浙里乡遇，一个为浙江广大乡村提供的一个数字化的推广平台，通过互联网，将浙江的美丽乡村，更好的展现给世界，让世界认识到浙江的各种乡村风景，各种风土人情。也带动了落后乡村的经济。为共同富裕做出自己的一份力量。
+            </article>
+            <button class="read-more-btn">阅读更多</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-menus">
+        <div class="contact-us">
+          <p class="menu-title">联系我们</p>
+          <p>地址：</p>
+          <p>电话</p>
+          <p>传真</p>
+          <p>电子邮件：dream&future@163.com</p>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">服务概览</p>
+          <ul class="menu-items">
+            <li><a href="#">网站建设</a></li>
+            <li><a href="#">域名购买</a></li>
+            <li><a href="#">网页设计</a></li>
+            <li><a href="#">移动应用</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">成功案例</p>
+          <ul class="menu-items">
+            <li><a href="#">桌面网站</a></li>
+            <li><a href="#">移动网站</a></li>
+            <li><a href="#">科研网站</a></li>
+            <li><a href="#">软件应用</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">公司动态</p>
+          <ul class="menu-items">
+            <li><a href="#">信息公开</a></li>
+            <li><a href="#">最近新闻</a></li>
+            <li><a href="#">最新博客</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">帮助与支持</p>
+          <ul class="menu-items">
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">联系客服</a></li>
+            <li><a href="#">文档资源</a></li>
+          </ul>
+        </div>
+        <p class="icp-info">浙ICP备20201212号</p>
+        <p class="rights">&copy; 2020 筑梦未来有限公司</p>
+        <div class="scroll-to-top">
+          <a href="#"><i class="fas fa-chevron-up"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- 引入JS文件 --> 
+    <script src="libs/anime/anime.min.js"></script>
+    <script src="libs/glide/glide.min.js"></script>
+    <script src="libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
